@@ -1,0 +1,25 @@
+.home__title {
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.home__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 2px solid transparent;
+  width: max-content;
+  border-radius: 20px;
+  margin: 10px 20px;
+  transition: border 200ms ease-in;
+}
+
+.home__link:hover {
+  color: blue;
+  border: 2px solid blue;
+}
