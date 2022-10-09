@@ -1,0 +1,21 @@
+.oopsConceptComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.oopsConceptComponent__link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 2px solid transparent;
+  width: max-content;
+  border-radius: 20px;
+  margin: 10px 20px;
+  transition: border 200ms ease-in;
+}
+
+.oopsConceptComponent__link:hover {
+  color: blue;
+  border: 2px solid blue;
+}
