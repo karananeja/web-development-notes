@@ -1,0 +1,53 @@
+.javaScriptComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+.javaScriptComponent__table,
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+td {
+  max-width: 20vw;
+}
+
+tbody>tr>td {
+  text-align: justify;
+}
+
+.javaScriptComponent__link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 2px solid transparent;
+  width: max-content;
+  border-radius: 20px;
+  margin: 10px 20px;
+  transition: border 200ms ease-in;
+}
+
+.javaScriptComponent__link:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+@media only screen and (max-width:450px) {
+  .javaScriptComponent__table {
+    margin-right: 20px;
+  }
+
+  td {
+    max-width: min-content;
+  }
+}
