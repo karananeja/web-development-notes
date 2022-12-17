@@ -64,7 +64,7 @@ const JavaScriptComponent = () => {
             Variable Naming Convention
             <ul>
               <li>
-                Do not use any of the JavaScript resevered keyoword as a variable name
+                Do not use any of the JavaScript reserved keyword as a variable name
               </li>
               <li>
                 JavaScript variable names should not start with <strong>Number</strong>
@@ -90,7 +90,7 @@ const JavaScriptComponent = () => {
             Session storage will leave when the browser is closed
           </li>
           <li>
-            innerHTML - It will processs an HTML tag if found in a string
+            innerHTML - It will process an HTML tag if found in a string
           </li>
           <li>
             innerText - It will not process an HTML tag if found in a string
@@ -175,10 +175,10 @@ const JavaScriptComponent = () => {
               <tbody>
                 <tr>
                   <td>
-                    Promise is an object represting intermediate state of operation which is guaranteed to complete its execution
+                    Promise is an object representing intermediate state of operation which is guaranteed to complete its execution
                   </td>
                   <td>
-                    Async/Await is a syntatic sugar for promises, a code wrapper making the code execute more synchronously
+                    Async/Await is a syntactic sugar for promises, a code wrapper making the code execute more synchronously
                   </td>
                 </tr>
                 <tr>
@@ -186,7 +186,7 @@ const JavaScriptComponent = () => {
                     It has 4 states - Resolved, Rejected, Pending and Settled
                   </td>
                   <td>
-                    It doesnot have any states, it returns a promise either resolved or rejected
+                    It doesn't have any states, it returns a promise either resolved or rejected
                   </td>
                 </tr>
                 <tr>
