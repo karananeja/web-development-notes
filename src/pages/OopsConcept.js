@@ -94,14 +94,14 @@ const OopsConceptComponent = () => {
           <h4 className='oopsConceptComponent__titleTwo'>Polymorphism</h4>
           <ul>
             <li>
-              It enables us to <i>program in the general</i> rather than <i>program in the specific</i>
+              It enables us to <i>program in the general</i> rather than <i>program in specific</i>
             </li>
           </ul>
         </div>
       </div>
       <Link className='oopsConceptComponent__link' to='/'>Back to Home</Link>
     </div>
-  )
-}
+  );
+};
 
 export default OopsConceptComponent;
