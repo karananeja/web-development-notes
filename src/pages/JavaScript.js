@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/JavaScript.css'
+import '../css/JavaScript.css';
 
 const JavaScriptComponent = () => {
   return (
@@ -217,11 +217,77 @@ const JavaScriptComponent = () => {
           <li>
             It typically contains multiple nested callback functions which in turn make the code hard to read and debug
           </li>
+          <li>
+            <h4>
+              Difference between <strong>Var</strong>, <strong>Let</strong> and <strong>Const</strong>
+            </h4>
+            <table className='javaScriptComponent__table'>
+              <thead>
+                <tr>
+                  <th>
+                    Var
+                  </th>
+                  <th>
+                    Let
+                  </th>
+                  <th>
+                    Const
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    It is globally scoped or function scoped
+                  </td>
+                  <td>
+                    It is block scoped
+                  </td>
+                  <td>
+                    It is block scoped
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    It can be declared and updated again
+                  </td>
+                  <td>
+                    It can be updated again but not declared once again
+                  </td>
+                  <td>
+                    It neither can be declared nor updated again
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    It is hoisted to the top of the scope and initialized with <i>undefined</i> value
+                  </td>
+                  <td>
+                    It is hoisted to the top of the scope but not initialized
+                  </td>
+                  <td>
+                    It is hoisted to the top of the scope but not initialized
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    It can declared without being initialized
+                  </td>
+                  <td>
+                    It can declared without being initialized
+                  </td>
+                  <td>
+                    It cannot declared without being initialized
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
         </ul>
       </div>
       <Link className='javaScriptComponent__link' to='/'>Back to Home</Link>
     </div>
-  )
-}
+  );
+};
 
 export default JavaScriptComponent;
