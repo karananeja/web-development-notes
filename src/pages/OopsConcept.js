@@ -27,7 +27,7 @@ const OopsConceptComponent = () => {
         <div className='oopsConceptComponent__pillarOne'>
           <h4 className='oopsConceptComponent__titleTwo'>Inheritance</h4>
           <p>
-            It is form of software reuse in which a new class is created by absorbing an existing class's members and embelleshing them with new or modified capabilities. <br />
+            It is form of software reuse in which a new class is created by absorbing an existing class's members and embellishing them with new or modified capabilities. <br />
             Existing class is called as Super Class (Parent Class), New class is called as Sub Class (Child Class) <br />
             Direct Super Class - is the superclass from which subclass explicitly extends <br />
             Indirect Super Class - it is any class above the direct superclass in the class hierarchy which defines the inheritance relationship between classes <br />
