@@ -86,11 +86,18 @@ const JavaScriptComponent = () => {
           <li>
             Local Storage will stay until it is manually cleared through settings or program
           </li>
+          <li>Maximum limit of data saving in Local Storage is about 5 MB.</li>
+          <li>Session storage will leave when the browser is closed</li>
           <li>
-            Session storage will leave when the browser is closed
+            Maximum limit of data saving in Session Storage is about 5 MB.
           </li>
           <li>
-            innerHTML - It will process an HTML tag if found in a string
+            <strong>Note:</strong> If after closing the current tab we press
+            ctrl+shift+T for restoring that tab, then ideally in Session Storage
+            data should not be there but we can see that Session Storage is
+            maintained in the chrome, firefox but not in the safari browser
+            while restoring the tab. It is the browser dependent feature while
+            restoring the tab.
           </li>
           <li>
             innerText - It will not process an HTML tag if found in a string
