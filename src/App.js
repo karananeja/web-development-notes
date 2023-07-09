@@ -15,7 +15,7 @@ const App = () => {
     <div className='app'>
       <Routes>
         {/* Using react route nesting to group the routes with similar path */}
-        <Route path='/' >
+        <Route path='/'>
           <Route index element={<Home />} />
           <Route path='oopsconcepts' element={<OopsConceptComponent />} />
           <Route path='javascript' element={<JavaScriptComponent />} />
@@ -27,7 +27,7 @@ const App = () => {
         </Route>
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-    </div >
+    </div>
   );
 };
 
